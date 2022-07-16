@@ -1,0 +1,39 @@
+{"intents": [
+    {"tag": "salam",
+     "patterns": ["Hai", "Hi", "Halo", "Apa Kabar", "assalammualaikum", "Selamat Pagi", "Selamat Siang", "Selamat Malam", "Salam", "Ping", "P"],
+     "responses": ["Halo!","Halo kak kami dari PMB ITTP, ada yang bisa dibantu?", "Halo, ada yang bisa saya bantu?", "Halo dengan PMB ITTP, ada yang bisa dibantu?" ]
+    },
+    {"tag": "bye",
+     "patterns": ["Dadah", "Selamat Tinggal", "Dah", "Daah","terimakasih", "Semoga harimu menyenangkan", "Ok makasih", "Sampai Jumpa Lagi", "Ok bye","makasih kak"],
+     "responses": ["Sampai jumpa lagi yaa", "Kalau ada masalah, hubungi aku lagi ya", "Semoga harimu menyenangkan!","Terimakasih telah menghubungi kami"]
+    },
+    {"tag": "nama",
+     "patterns": ["nama kamu siapa?", "lu siapa?", "siapa sih lo?", "lu sape ?", "nama lo sape dah ?", "nama?"],
+     "responses": ["Namaku Arya dari PMB ITTP, ada yang bisa dibantu?", "Halo, aku Syauqi dari PMB ITTP, ada yang bisa dibantu?", "Selamat datang di layanan PMB ITTP, ada yang bisa dibantu?"]
+    },
+    {"tag": "mendaftar",
+     "patterns": ["info pendaftaran kak?", "cara daftar di ittp min?", "info daftar?", "daftar online?", "daftar offline?","bagaimana cara daftar di ittp"],
+     "responses": ["Pendaftaran dapat dilakukan secara online maupun offline", "Pendaftaran offline melalui guru BK atau datang langsung ke sekretariat PMB atau online link: http://reg.ittelkom-pwt.ac.id","Pendaftaran online bisa melalui link: http://reg.ittelkom-pwt.ac.id"]
+    },
+    {"tag": "perbedaan",
+    "patterns": ["Komponen pembayarannya ada apa saja kak?", "komponen pembayaran", "UP3,SDP2,BPP?", "apa itu UP3", "Bedanya up3,sdp2,bpp?"],
+    "responses": ["ada UP3,SDP2,BPP","UP3 adalah Uang Partisipasi Penyelenggaraan Pendidikan yang dibayarkan sekali di awal kuliah.SDP2 adalah Sumbangan Dana Pengembangan Pendidikan yang dibayarkan sekali di awal kuliah.BPP adalah Biaya Penyelenggaraan Pendidikan (Biaya semesteran) yang dibayarkan setiap awal semester selama kuliah."]
+    },
+    {"tag": "asrama",
+    "patterns": ["ada asrama?", "ittp punya asrama", "berapa biaya asrama?", "asramanya ada dimana"],
+    "responses": ["Untuk saat ini Institut Teknologi Telkom Purwokerto (ITTP) belum menyediakan asrama. Tempat kos atau kontrakan banyak tersedia di sekitar kampus dengan tarif beragam mulai Rp. 400.000 per bulan. Ada yang menggunakan sistem pembayaran bulanan ada yang tahunan"]
+    },
+    {"tag": "prodi",
+     "patterns": ["Prodinya ada apa aja?", "prodi min?", "prodi kak", "ittp prodinya apa aja ya", "prodi ada berapa?"],
+     "responses": ["Fakultas Teknik Telekomunikasi dan Elektro: D3 Teknik Telekomunikasi S1 Teknik Telekomunikasi S1 Teknik Elektro S1 Teknik Biomedis Fakultas Informatika: S1 Teknik Informatika S1 Sistem Informasi S1 Software Engineering S1 Sains Data Fakultas Rekayasa Industri dan Desain: S1 Teknik Industri S1 Desain Komunikasi Visual S1 Teknik Logistik"]
+    },
+    {"tag": "benefit",
+     "patterns": ["Kelebihan ittp?", "benefit masuk ittp", "manfaat masuk ittp", "bagusnya ittp apa", "ittp lulusanya kemana"],
+     "responses": ["Biaya pendidikan terjangkau, biaya hidup di Purwokerto terjangkau Dikelola oleh Telkom Group melalui Yayasan Pendidikan Telkom (YPT) Terakreditasi BAN PT Rasio dosen dan mahasiswa ideal Mahasiswa berasal dari 31 propinsi di Indonesia Memiliki 22 International Partner Rata-rata lulusan 83% sudah bekerja sebelum wisuda Dosen berpengalaman lulusan dalam negeri dan luar negeri Rangking 1 di Jawa Tengah kategori Institut Teknologi (Versi Webometrics Ranking of World Universities) Lokasi kampus strategis, dekat dengan pusat kota dan pusat perbelanjaan"]
+    },
+    {"tag": "kontak",
+     "patterns": ["saya butuh informasi lebih lanjut", "ada nomor pmb?", "ada akun yang bisa dihubungi", "hubungi", "sosial media"],
+     "responses": ["WhatsApp  : 0812-2831-9222 Facebook    : It Telkom Purwokerto Instagram   : @join_ittp Line                : @join_ittp Email             : pmb@ittelkom-pwt.ac.id"]
+    }
+]
+}
